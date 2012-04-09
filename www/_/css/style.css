@@ -5,6 +5,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
 
 /* primary styles */
 
+a, a:visited, a:hover { color: #333; }
+a:focus, a:hover, a:active { outline: 0; }
+
 .wrapper { padding: 20px; }
 
 header h1 a { text-decoration: none; color: #000; }
