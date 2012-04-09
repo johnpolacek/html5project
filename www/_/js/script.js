@@ -16,12 +16,12 @@ var App = (function() {
     //--------------------------------------
     
     function setEvents() {
-        $('.main-nav').on("click", {message: 'You just clicked '}, mainNavHandler);
+        $('.nav-button').on("click", {message: 'You just clicked '}, mainNavHandler);
     }
     
     function mainNavHandler(e) {
         e.preventDefault();
-        alert(event.data.message+$(this).text());
+        alert(e.data.message+$(this).text());
     }
     
     
